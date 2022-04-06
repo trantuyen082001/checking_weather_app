@@ -1,0 +1,60 @@
+.card {
+    border-radius: var(--main-border-radius);
+}
+
+.cardInner {
+    z-index: 1;
+    transform: translateX(10px);
+    height: 300px;
+}
+
+.gradient {
+    position: absolute;
+    width: 20%;
+    height: 47%;
+    top: 10;
+    left: 10;
+    background-image: var(--gradient);
+    background-size: cover;
+    border-radius: var(--main-border-radius);
+    opacity: 0.5;
+}
+
+.title_weekday {
+    font-size: 30px;
+    padding-left: 5px;
+    margin-bottom: 3px;
+}
+
+.date_weekday {
+    padding-left: 5px;
+    margin: 0;
+}
+
+.location_sub {
+    margin:  0 0 10px 0;
+}
+
+.location_degree {
+    font-style: 60px;
+    margin: 80px 0 0 0 ;
+}
+
+.weahter_desc {
+    margin: 0;
+}
+
+.img {
+    position: absolute;
+    width: 20%;
+    height: 47%;
+    top: 8;
+    left: 10;
+    background-image: url('./assets/mountain.jpg');
+    background-size: cover;
+    border-radius: var(--main-border-radius);
+}
+
+.weekday {
+    width: 100px;
+}

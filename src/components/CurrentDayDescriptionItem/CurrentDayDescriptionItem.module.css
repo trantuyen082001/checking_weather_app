@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 450px;
+    right: 0;
+    transform: translate(200px,-290px);
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+}
+
+.value {
+    margin: 0;
+}
